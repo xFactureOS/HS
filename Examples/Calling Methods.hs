@@ -5,7 +5,6 @@ class CallingMethodsInSameClass as app {
 	main() as func {
 	
 		printOne();
-		printOne();
 		printTwo();
 	
 	}
