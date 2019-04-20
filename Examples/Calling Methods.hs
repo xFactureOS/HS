@@ -4,7 +4,7 @@ class CallingMethods as app {
 
 	main() as func {
 	
-		var init = new Main();
+		var init = new CallingMethods();
 		
 		init.printOne();
 		init.printOne();
