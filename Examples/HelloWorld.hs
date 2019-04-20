@@ -9,3 +9,6 @@ class HelloWorld as app {
 	}
 
 }
+
+var init = new HelloWorld();
+init.main();
