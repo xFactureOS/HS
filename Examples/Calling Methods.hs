@@ -1,11 +1,14 @@
 import system;
 
-class CallingMethodsInSameClass as app {
+class CallingMethods as app {
 
 	main() as func {
 	
-		printOne();
-		printTwo();
+		var init = new Main();
+		
+		init.printOne();
+		init.printOne();
+		init.printTwo();
 	
 	}
 	
@@ -24,3 +27,6 @@ class CallingMethodsInSameClass as app {
 	}
 
 }
+
+var init = new CallingMethods();
+init.main();
