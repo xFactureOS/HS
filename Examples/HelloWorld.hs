@@ -4,7 +4,7 @@ class HelloWorld as app {
 
 	main() as func {
 	
-		print "Hello World";
+		print("Hello World");
 	
 	}
 
