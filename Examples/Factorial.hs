@@ -4,19 +4,25 @@ class Factorial as app {
 
 	main() as func {
 	
-		final int NUM_FACTS = 100;
+		var NUM_FACTS = 100;
 		
-		for(int i = 0; i < NUM_FACTS; i++) {
-			print"" + i + "! is " + factorial(i);
+		for(var i = 0; i < NUM_FACTS; i++) {
+
+			var init = new Factorial();
+		
+			var text = "" + i + "! is " + init.factorial(i)
+			
+			print(text);
+
 		}
 	
 	}
 	
-	factorial(int n) as func {
+	factorial(n) as func {
 	
-		int result = 1;
+		var result = 1;
 		
-		for(int i = 2; i <= n; i++) {
+		for(var i = 2; i <= n; i++) {
 			result *= i;
 		}
 			
@@ -25,3 +31,6 @@ class Factorial as app {
 	}
 
 }
+
+var init = new Factorial();
+init.main();
