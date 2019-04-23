@@ -14,15 +14,15 @@ class CallingMethods as app {
 	
 	printOne() as func {
 	
-		print "Hello World";
+		print("Hello World");
 	
 	}
 	
 	printTwo() as func {
 	
-		print "Hello World";
+		print("Hello World");
 		
-		print "Hello World";
+		print("Hello World");
 	
 	}
 
